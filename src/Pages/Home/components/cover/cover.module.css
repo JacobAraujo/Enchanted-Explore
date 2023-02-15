@@ -1,0 +1,19 @@
+.present{
+    background-color: #26282D;
+    padding: 150px 100px;
+    color: white;
+}
+
+.container{
+    padding: 0px;
+}
+
+.h1Present{
+    font-size: 450%;
+    margin-bottom: 40px;
+}
+
+.pPresent{
+    line-height: 30px;
+    text-align: center;
+}
