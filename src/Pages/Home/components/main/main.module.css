@@ -55,14 +55,14 @@
 
 .favorite {
     top: 92%;
-    left: 15%;
+    left: 19%;
     background-color: rgb(0,0,0,0);
     background: url('../icons/whitelove.png');
     background-size: 100%;
 }
 
 .download {
-    top: 92%;
+    top: 92.1%;
     left: 77%;
     background: url('../icons/whitedownload.png');
     background-size: 100%;
