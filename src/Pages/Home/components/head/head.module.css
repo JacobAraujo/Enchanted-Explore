@@ -1,17 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@300;400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Raleway:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300&family=Open+Sans:ital,wght@0,300;0,400;1,300&family=Raleway:wght@300;400&display=swap');
 
 .container {
     background-color: #1B1A21;
+    height: 250px;
     color: white;
 }
 
 .contentInfo {
     padding-top: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
     border-bottom: 1px solid white;
     margin: 0 100px;
+}
+
+.contentInfo h1{
+    margin-left: 80px;
+    margin-bottom: 1px;
+    font-size: 22px;
 }
 
 h1{
@@ -20,8 +28,18 @@ h1{
     margin-left: 15px;
 }
 
+.contentInfo p{
+    font-family: 'Mukta', 'Raleway', 'Open Sans', 'Roboto';
+    text-align: left;
+    font-weight: 200;   
+    font-size: 96.8%;
+    margin-left: 80px;
+    margin-right: 200px;
+    margin-bottom: 14px;
+    line-height: 28px;
+}
+
 p{
-    font-family: 'Raleway', 'Roboto';
     padding: 0px;
     margin: 5px;
     font-size: 90%;
@@ -30,8 +48,16 @@ p{
 
 .image{
     display: flex;
+    float: left;
     align-items: center;
     justify-content: center;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+
+.image img {
+    width: 50px;
+    height: auto;
 }
 
 .contentNav{
@@ -41,15 +67,17 @@ p{
 }
 
 a{
-    font-family: 'Raleway', 'Roboto';
+    font-family: 'Open Sans', 'Raleway', 'Roboto';
+    font-weight: 400;
     color: #fff;
     padding: 0px;
     margin: 0px;
     font-size: 80%;
-}
+} 
 
-.inicio{
-    margin-right: 30px;
+a:hover{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 .email{
